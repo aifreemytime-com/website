@@ -227,15 +227,15 @@ export default function Component() {
 					<br/>
 					<br/>To share with a friend, let them scan this QR code with their phone&apos;s camera:
 				  <Image
-                    alt="Placeholder Image"
+                    alt="QR Code"
                     className="rounded-xl object-cover object-center mt-4"
-                    height="100"
-                    src="/placeholder.svg"
+                    height="243"
+                    src="/QR.jpg"
                     style={{
-                      aspectRatio: "100/100",
+                      aspectRatio: "243/243",
                       objectFit: "cover",
                     }}
-                    width="100"
+                    width="243"
                   />
 				</CardContent>
               </Card>
