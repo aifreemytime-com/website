@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { IndexComponent } from '../components/component/index-component';
+//import { IndexComponent } from '../components/component/index-component';
 import Link from "next/link"
 import { CardTitle, CardHeader, CardContent, CardFooter, Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
