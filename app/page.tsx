@@ -10,7 +10,7 @@ export default function Component() {
     <div className="flex flex-col min-h-screen bg-gradient-to-tl from-blue-500 via-white to-green-500 bg-wave">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#services">
-          <img
+          <Image
             alt="AI for Beginners Logo"
             className="h-6 w-6"
             height="40"
@@ -63,7 +63,7 @@ export default function Component() {
                 </div>
               </div>
               <div className="flex flex-col items-start space-y-4">
-                <img
+                <Image
                   alt="AI Solutions"
                   className="rounded-full object-cover object-left"
                   height="310"
@@ -193,7 +193,7 @@ export default function Component() {
               </p>
             </div>
             <div className="flex justify-right items-center">
-              <img
+              <Image
                 alt="Expert Image"
                 className="rounded-full object-cover object-left"
                 height="200"
@@ -226,8 +226,8 @@ export default function Component() {
 					<br/>
 					<br/>Phone on request, text preferred.
 					<br/>
-					<br/>To share with a friend, let them scan this QR code with their phone's camera:
-				  <img
+					<br/>To share with a friend, let them scan this QR code with their phone&apos;s camera:
+				  <Image
                     alt="Placeholder Image"
                     className="rounded-xl object-cover object-center mt-4"
                     height="100"
