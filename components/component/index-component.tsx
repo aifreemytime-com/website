@@ -6,12 +6,12 @@ import Link from "next/link"
 import { CardTitle, CardHeader, CardContent, CardFooter, Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
-export function IndexComponent() {
+export const IndexComponent = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-tl from-blue-500 via-white to-green-500 bg-wave">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
-          <img
+          <Image
             alt="AI for Beginners Logo"
             className="h-6 w-6"
             height="40"
@@ -64,7 +64,7 @@ export function IndexComponent() {
                 </div>
               </div>
               <div className="flex flex-col items-start space-y-4">
-                <img
+                <Image
                   alt="AI Solutions"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
                   height="310"
@@ -189,7 +189,7 @@ export function IndexComponent() {
               </p>
             </div>
             <div className="flex justify-center items-center">
-              <img
+              <Image
                 alt="Expert Image"
                 className="rounded-full object-cover object-center"
                 height="200"
@@ -229,7 +229,7 @@ export function IndexComponent() {
               </Card>
               <Card>
                 <CardContent>
-                  <img
+                  <Image
                     alt="Placeholder Image"
                     className="rounded-xl object-cover object-center mt-4"
                     height="100"
