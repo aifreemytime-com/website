@@ -6,9 +6,9 @@ import Image from "next/image";
 
 export default function Component() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-green-400 via-white to-blue-400 dark:bg-black">
+    <div className="flex flex-col min-h-screen">
       <header className="header-class">
-        <nav className="flex gap-4 sm:gap-6">
+		<nav className="flex gap-4 sm:gap-6 justify-center">
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#services">
             Services
           </Link>
@@ -22,7 +22,7 @@ export default function Component() {
             Contact
           </Link>
         </nav>
-		<div className="header-text">
+		<div className="header-text justify-center">
           <strong>Based in Grass Valley, CA, serving Nevada County, CA and surrounding areas.</strong>
         </div>
       </header>

@@ -5,26 +5,19 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
   }
 }
 
 body {
   overflow-x: hidden;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -38,7 +31,7 @@ body {
 		display: flex;
 		flex-direction: row; /* Align items in a row */
 		align-items: center; /* Center items vertically */
-		justify-content: center; /* Space out the items */
+		justify-content: center; 
 		flex-wrap: wrap; /* Allow items to wrap to next line */
 		overflow-x: hidden;
 	}
@@ -52,6 +45,7 @@ body {
         width: 100%; /* Full width */
         text-align: center;
         margin-top: 5px; /* Add some space above the text */
+		justify-content: center;
     }
 
     nav {
