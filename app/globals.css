@@ -38,7 +38,7 @@ body {
 		display: flex;
 		flex-direction: row; /* Align items in a row */
 		align-items: center; /* Center items vertically */
-		justify-content: flex-start; /* Space out the items */
+		justify-content: center; /* Space out the items */
 		flex-wrap: wrap; /* Allow items to wrap to next line */
 		overflow-x: hidden;
 	}

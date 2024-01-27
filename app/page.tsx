@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Component() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-gradient-to-br from-green-400 via-white to-blue-400 dark:bg-black">
       <header className="header-class">
         <nav className="flex gap-4 sm:gap-6">
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#services">
@@ -204,7 +204,11 @@ export default function Component() {
             <div className="w-full max-w-sm space-x-2 flex justify-between">
               <Card>
                 <CardHeader>
-                  <CardTitle>Contact</CardTitle>
+                  <CardTitle> 
+					<div className="flex justify-center">
+						Contact
+					</div>
+				</CardTitle>
                 </CardHeader>
                 <CardContent>Corey Holden, AI Coach 
 					<br/><strong>AIFreeMyTime@gmail.com</strong>
@@ -212,17 +216,19 @@ export default function Component() {
 					<br/>Phone on request, text preferred.
 					<br/>
 					<br/>To share with a friend, let them scan this QR code with their phone&apos;s camera:
-				  <Image
-                    alt="QR Code"
-                    className="rounded-xl object-cover object-center mt-4"
-                    height="243"
-                    src="/QR.jpg"
-                    style={{
-                      aspectRatio: "243/243",
-                      objectFit: "cover",
-                    }}
-                    width="243"
-                  />
+					 <div className="flex justify-center">
+						<Image
+							alt="QR Code"
+							className="rounded-xl object-cover object-center mt-4"
+							height="243"
+							src="/QR.jpg"
+							style={{
+							  aspectRatio: "243/243",
+							  objectFit: "cover",
+							}}
+							width="243"
+						/>
+					</div>
 				</CardContent>
               </Card>
              
