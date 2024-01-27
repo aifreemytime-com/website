@@ -33,6 +33,13 @@ body {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
 @media only screen and (max-width: 600px) {
 	header {
 		display: flex;
@@ -52,20 +59,14 @@ body {
         width: 100%; /* Full width */
         text-align: center;
         margin-top: 5px; /* Add some space above the text */
-		color: #000000;
     }
 
     nav {
-		margin: 0;
-		padding: 0;
+		margin: 4;
+		padding: 4;
 		justify-content: flex-start;
         order: 2; /* Keep the navbar order */
         width: 100%; /* Full width for the nav */
-		margin: 0;
-		padding: 0;
     }
 	
-	.navbar-black {
-		color: #000000; /* Sets text color to black */
-	}
 }
