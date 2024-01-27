@@ -50,9 +50,11 @@ body {
         width: 100%; /* Full width */
         text-align: center;
         margin-top: 5px; /* Add some space above the text */
+		color: #000000;
     }
 
     nav {
+		justify-content: flex-start;
         order: 2; /* Keep the navbar order */
         width: 100%; /* Full width for the nav */
     }
