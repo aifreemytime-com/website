@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Component() {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-tl from-blue-500 via-white to-green-500 bg-wave dark:bg-black">
+    <div className="flex flex-col min-h-screen">
       <header className="header-class">
         <nav className="flex gap-4 sm:gap-6">
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#services">
