@@ -7,24 +7,7 @@ import Image from "next/image";
 export default function Component() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-tl from-blue-500 via-white to-green-500 bg-wave">
-      <header className="px-4 lg:px-6 h-14 flex items-center">
-        <Link className="flex items-center justify-center" href="#services">
-          <Image
-            alt="AI for Beginners Logo"
-            className="h-6 w-6"
-            height="40"
-            src="/icon.jpg"
-            style={{
-              aspectRatio: "40/40",
-              objectFit: "cover",
-            }}
-            width="40"
-          />
-          <span className="sr-only">AI for Beginners</span>
-        </Link>
-        <div className="mx-auto text-md font-semibold">
-          Based in Grass Valley, CA, serving Nevada County, CA and surrounding areas
-        </div>
+      <header className="header-class">
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#services">
             Services
@@ -39,6 +22,9 @@ export default function Component() {
             Contact
           </Link>
         </nav>
+		<div className="header-text">
+          <strong>Based in Grass Valley, CA, serving Nevada County, CA and surrounding areas.</strong>
+        </div>
       </header>
       <main className="flex-1">
         <section className="w-full pt-6 md:pt-12 lg:pt-16 border-y">

@@ -31,3 +31,29 @@ body {
     text-wrap: balance;
   }
 }
+
+@media only screen and (max-width: 600px) {
+	header {
+		display: flex;
+		flex-direction: row; /* Align items in a row */
+		align-items: center; /* Center items vertically */
+		justify-content: space-between; /* Space out the items */
+		flex-wrap: wrap; /* Allow items to wrap to next line */
+	}
+	
+	.link-class, nav { /* Use actual class name for <Link> */
+        max-width: calc(50% - 10px); /* Adjust as needed */
+    }
+
+    .header-text {
+        order: 3; /* Move the text below the navbar */
+        width: 100%; /* Full width */
+        text-align: center;
+        margin-top: 5px; /* Add some space above the text */
+    }
+
+    nav {
+        order: 2; /* Keep the navbar order */
+        width: 100%; /* Full width for the nav */
+    }
+}
