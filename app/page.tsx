@@ -16,7 +16,7 @@ export default function Component() {
             About
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#services">
-            Learn AI
+            Learn
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#contact">
             Contact
