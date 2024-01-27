@@ -17,6 +17,7 @@
 }
 
 body {
+  overflow-x: hidden;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -39,6 +40,7 @@ body {
 		align-items: center; /* Center items vertically */
 		justify-content: flex-start; /* Space out the items */
 		flex-wrap: wrap; /* Allow items to wrap to next line */
+		overflow-x: hidden;
 	}
 	
 	.link-class, nav { /* Use actual class name for <Link> */
@@ -54,10 +56,13 @@ body {
     }
 
     nav {
-		margin-left: 0;
+		margin: 0;
+		padding: 0;
 		justify-content: flex-start;
         order: 2; /* Keep the navbar order */
         width: 100%; /* Full width for the nav */
+		margin: 0;
+		padding: 0;
     }
 	
 	.navbar-black {
