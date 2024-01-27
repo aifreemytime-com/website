@@ -33,13 +33,6 @@ body {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: black;
-        color: white;
-    }
-}
-
 @media only screen and (max-width: 600px) {
 	header {
 		display: flex;
