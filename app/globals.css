@@ -38,13 +38,12 @@ body {
 		display: flex;
 		flex-direction: row; /* Align items in a row */
 		align-items: center; /* Center items vertically */
-		justify-content: flex-start; /* Space out the items */
-		flex-wrap: wrap; /* Allow items to wrap to next line */
+		justify-content: center; /* Space out the items */
 		overflow-x: hidden;
 	}
 	
 	.link-class, nav { /* Use actual class name for <Link> */
-        max-width: calc(50% - 10px); /* Adjust as needed */
+        max-width: 100%; /* Adjust as needed */
     }
 
     .header-text {
