@@ -58,4 +58,8 @@ body {
         order: 2; /* Keep the navbar order */
         width: 100%; /* Full width for the nav */
     }
+	
+	.navbar-black {
+		color: #000000; /* Sets text color to black */
+	}
 }
